@@ -7,7 +7,7 @@ How to implement encapsulation in java:
 2) Have getter and setter methods in the class to set and get the values of the fields.
 ```
 OUTPUT:
-Employee Name: Mario
+Employee Name: Gautam
 Employee SSN: 112233
 Employee Age: 32
 ```
