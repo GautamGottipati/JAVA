@@ -22,7 +22,7 @@ Constructing an Employee
 Constructing an Employee
 Call mailCheck using Salary reference --
 Within mailCheck of Salary class 
-Mailing check to *Gautam* with salary 3600.0
+Mailing check to Gautam with salary 3600.0
 
  Call mailCheck using Employee reference--
 Within mailCheck of Salary class 
