@@ -9,7 +9,7 @@ How to implement encapsulation in java:
 OUTPUT:
 Employee Name: Gautam
 Employee SSN: 112233
-Employee Age: 32
+Employee Age: 20
 ```
 
 Abstraction
