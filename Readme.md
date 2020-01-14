@@ -34,3 +34,7 @@ Types of constructor:
 ```Default | No-Args | Parameterized  ```
 ### Default Constructor:
 If you do not implement any constructor in your class, Java compiler inserts a default constructor into your code on your behalf.
+### No-args:
+Constructor with no arguments is known as no-arg constructor. The signature is same as default constructor, however body can have any code unlike default constructor where the body of the constructor is empty.
+### Parameterized Constructor:
+Constructor with arguments(or you can say parameters) is known as Parameterized constructor.
