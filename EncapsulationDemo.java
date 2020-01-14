@@ -1,7 +1,7 @@
 class EncapsulationDemo{
     private int ssn;
     private String empName;
-    protected int empAge;
+    private int empAge;
 
     //Getter and Setter methods
     public int getEmpSSN(){
