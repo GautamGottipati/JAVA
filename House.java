@@ -4,6 +4,7 @@ import java.io.*;
 public class House
 {
 	int length,breadth;
+	//default constructor : compiler will call this by default.
 	House(){
 		System.out.println("Your House is initiated");
 	}
@@ -19,7 +20,7 @@ public class House
 
 class cons{
 	public static void main(String[] args){
-		House h = new House();//Default constructor called
+		House h = new House();//no argument constructor called
 		House h1 = new House(5,2);// Parameterized cons called
 		House h2 = new House("Gautam",5,2);//3 parameter's
 	}
