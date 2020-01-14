@@ -1,27 +1,69 @@
-import java.lang.*;
-import java.io.*;
+class C1
 
-public class House
 {
-	int length,breadth;
-	//default constructor : compiler will call this by default.
-	House(){
-		System.out.println("Your House is initiated");
+
+	C1()// no arguments constructor
+
+	{
+
+		System.out.println("Hello world");
+
 	}
-	House(int l,int b){
-		length = l;
-		breadth = b;
+
+	C1(String name,int sno)//parameterized constructor
+
+	{
+
+		System.out.println("Welcome "+name);
+		System.out.println("SNo "+sno);
+
 	}
-	House(String name,int l,int b){
-		System.out.printf("Hello! owner name = %s ,length = %d, bredth = %d",name,l,b);
-	}
-	
+
 }
 
-class cons{
-	public static void main(String[] args){
-		House h = new House();//no argument constructor called
-		House h1 = new House(5,2);// Parameterized cons called
-		House h2 = new House("Gautam",5,2);//3 parameter's
+class C2
+
+{
+
+	protected C2()//protected constructor
+
+	{
+
+		System.out.println("This is protected constructor");
+
 	}
+
+}
+
+class C3
+
+{
+
+	public C3()//public constructor
+
+	{
+		System.out.println("This is public constructor");
+		
+	}
+
+}
+
+public class constra extends C3
+
+{
+
+	public static void main(String args[])
+
+	{
+
+		C1 w=new C1();
+
+		C1 x=new C1("Gautam",303);
+
+		C3 t=new C3();
+
+		C2 m=new C2();
+
+	}
+
 }
