@@ -19,6 +19,6 @@ class cons{
 	public static void main(String[] args){
 		House h = new House();//Default constructor called
 		House h1 = new House(5,2);// Parameterized cons called
-		House h2 = new House("Gautam",5,2);//3 parameters
+		House h2 = new House("Gautam",5,2);//3 parameter's
 	}
 }
