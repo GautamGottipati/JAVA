@@ -28,3 +28,7 @@ Mailing check to Gautam with salary 3600.0
 Within mailCheck of Salary class 
 Mailing check to John Adams with salary 2400.0
 ```
+Constructor
+===========
+Types of constructor:
+```Default | No-Args | Parameterized  ```
