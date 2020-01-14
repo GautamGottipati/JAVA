@@ -38,3 +38,5 @@ If you do not implement any constructor in your class, Java compiler inserts a d
 Constructor with no arguments is known as no-arg constructor. The signature is same as default constructor, however body can have any code unlike default constructor where the body of the constructor is empty.
 ### Parameterized Constructor:
 Constructor with arguments(or you can say parameters) is known as Parameterized constructor.
+### Private Constructor:
+The use of private constructor is to serve singleton classes. A singleton class is one which limits the number of objects creation to one. Using private constructor we can ensure that no more than one object can be created at a time.By providing a private constructor you prevent class instances from being created in any place other than this very class. 
