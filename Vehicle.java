@@ -1,3 +1,4 @@
+// Multiple inheritance
 interface Car
 {
     int  speed=60;
