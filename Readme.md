@@ -33,3 +33,4 @@ Constructor
 Types of constructor:
 ```Default | No-Args | Parameterized  ```
 ### Default Constructor:
+If you do not implement any constructor in your class, Java compiler inserts a default constructor into your code on your behalf.
