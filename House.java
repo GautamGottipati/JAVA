@@ -3,14 +3,16 @@ import java.io.*;
 
 public class House
 {
+	int length,breadth;
 	House(){
 		System.out.println("Your House is initiated");
 	}
 	House(int l,int b){
-		System.out.println("length = "+l+"Breadth = ",b);
+		length = l;
+		breadth = b;
 	}
 	House(String name,int l,int b){
-		System.out.println("House name ="+name+" Lenght ="+l+" Breadth ="+b);
+		System.out.printf("Hello! owner name = %s ,length = %d, bredth = %d",name,l,b);
 	}
 	
 }
