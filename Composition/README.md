@@ -4,9 +4,9 @@ Composition is the design technique to implement has-a relationship in classes. 
 
 Classed used
 ------------
-..Job.java
-..Person.java
-..TestPerson.java
+Job.java
+Person.java
+TestPerson.java
 ```
 OUTPUT
 ======
