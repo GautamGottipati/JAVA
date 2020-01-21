@@ -3,7 +3,7 @@ Encapsulation
 Encapsulation is to hide the implementation details from the users.
 If a data member is private it means it can only be accessed within the same class.
 How to implement encapsulation in java:
-:one: Make the instance variables private so that they cannot be accessed directly from outside the class. You can only set and get values of these variables through the methods of the class.
+1) Make the instance variables private so that they cannot be accessed directly from outside the class. You can only set and get values of these variables through the methods of the class.
 2) Have getter and setter methods in the class to set and get the values of the fields.
 ```
 OUTPUT:
